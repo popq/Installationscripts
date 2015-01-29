@@ -4,5 +4,5 @@ echo "Installing Chocolatey Nuget Pkg-manager"
 
 # INSTALL APPS AND DEV TOOLS
 echo "Installing apps and dev tools"
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://github.com/karl-henrik/Installationscripts/DevSoftware.ps1'))"
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://github.com/popq/Installationscripts/DevSoftware.ps1'))"
 
